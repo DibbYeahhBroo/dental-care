@@ -233,6 +233,7 @@ img{
   width: 70vw;
   border: black;
   margin-top: 50px;
+  object-fit: cover;
 }
 #box2{
   transform: translateY(500px);
@@ -274,7 +275,6 @@ img{
 .highlight-box .button:hover {
   background-color: #5ca7bf;
 }
-
 
 
 .footer {
