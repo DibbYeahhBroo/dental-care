@@ -61,7 +61,7 @@ body {
                         border-radius: 5px;
                         transform: translateY(-8px);
                         transition: transform 0.3s ease, box-shadow 0.3s ease, scale 0.3s ease-in;
-                        cursor: pointer;
+                        
                         /* display: block; */
                        }
                        .nav-links #nav1:hover{
@@ -285,10 +285,14 @@ body {
                         justify-content: center;
                         align-items: center;
                         transform: translate(200px,-550px);
-                        color: white;
+                        
                         cursor: pointer;
                         font-size: x-large;
-                        
+                       }
+                       .hero #contact a{
+                        color: white;
+                        text-decoration: none;
+                        cursor: pointer;
                        }
                        .hero #contact:hover{
                         background-color: #343A40;
@@ -484,11 +488,16 @@ body {
                         background-color: #495057;
                         padding-top: 15px;
                         padding-left: 50px;
-                        color: white;
                         transform: translate(520px,-180px);
                         border-radius: 5px; 
                         cursor: pointer;
                         font-size: x-large;
+                      }
+                      #schedulee a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 1.3rem;
+                        cursor: pointer;
                       }
                       #schedulee:hover{
                         background-color: #343A40;
